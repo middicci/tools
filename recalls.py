@@ -35,17 +35,19 @@ class Recall:
 	            	resp.get('results')[0].get('complaintsCount')))
 
 
+if len(sys.argv) > 3:
+    make, model, last_n_years = sys.argv[1].upper(), sys.argv[2].upper(), int(sys.argv[3])
+    re = Recall(make, model, last_n_years)
+else:
+    print(
+    """
+    Usage:
+    > python recalls.py tesla 'model 3' 3
 
-make, model, last_n_years = sys.argv[1].upper(), sys.argv[2].upper(), int(sys.argv[3])
-re = Recall(make, model, last_n_years)
+    TESLA, MODEL 3, 2017 ::: No of Recalls : 0, No of Complaints : 0
+    TESLA, MODEL 3, 2018 ::: No of Recalls : 0, No of Complaints : 101
+    TESLA, MODEL 3, 2019 ::: No of Recalls : 1, No of Complaints : 34
+
+    """)
 
 
-"""
-Usage:
-> python recalls.py tesla 'model 3' 3
-
-TESLA, MODEL 3, 2017 ::: No of Recalls : 0, No of Complaints : 0
-TESLA, MODEL 3, 2018 ::: No of Recalls : 0, No of Complaints : 101
-TESLA, MODEL 3, 2019 ::: No of Recalls : 1, No of Complaints : 34
-
-"""
