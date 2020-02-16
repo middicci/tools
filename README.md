@@ -11,3 +11,15 @@ TESLA, MODEL 3, 2018 ::: No of Recalls : 0, No of Complaints : 101
 TESLA, MODEL 3, 2019 ::: No of Recalls : 1, No of Complaints : 34
 ```
 
+# FAA Airport Status for Delays
+Get Airport Traffic Delays information from FAA
+
+# usage
+
+```
+> python faa.py JFK
+
+John F Kennedy Intl, JFK, New York ::: Delays : False 
+Status : No known delays for this airport
+Weather : [{'Temp': ['Mostly Cloudy']}]
+```
