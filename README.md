@@ -1,4 +1,4 @@
-# recall history tool
+# Recall history tool
 Get last n years of recall history for make model year from nhtsa
 
 # usage
@@ -23,3 +23,20 @@ John F Kennedy Intl, JFK, New York ::: Delays : False
 Status : No known delays for this airport
 Weather : [{'Temp': ['Mostly Cloudy']}]
 ```
+
+# CDC Flu Stats
+Get CDC flu stats for last n years for a state in USA
+
+# usage
+
+```
+    > python flu.py <STATE> <LAST_N_YEARS> <CDC_SEVERITY_LEVEL>
+    > python flu.py CA 3 7
+
+    State : CA :: FLU Season: 2016-04-10 :: Week Number :: 15 :: CDC Severity level :: 7
+    State : CA :: FLU Season: 2017-03-19 :: Week Number :: 12 :: CDC Severity level :: 7
+    State : CA :: FLU Season: 2017-11-05 :: Week Number :: 45 :: CDC Severity level :: 7
+    State : CA :: FLU Season: 2019-04-14 :: Week Number :: 16 :: CDC Severity level :: 7
+```
+
+
