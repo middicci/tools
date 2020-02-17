@@ -1,4 +1,4 @@
-# Recall history tool
+# NHTSA Recall history tool
 Get last n years of recall history for make model year from nhtsa
 
 # usage
