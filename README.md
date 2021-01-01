@@ -39,4 +39,14 @@ Get CDC flu stats for last n years for a state in USA
     State : CA :: FLU Season: 2019-04-14 :: Week Number :: 16 :: CDC Severity level :: 7
 ```
 
+# Copyright.js
+
+Adds current year to website footer and saves a release cycle.
+
+# usage
+
+```
+copyright('Company Name Inc.')
+
+```
 
