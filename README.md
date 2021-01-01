@@ -45,8 +45,8 @@ Adds current year to website footer and saves a release cycle.
 
 # usage
 
-```
-copyright('Company Name Inc.')
 
+```
+<span  class='copyright' onload=copyright('Company Name Inc.')></span>
 ```
 
