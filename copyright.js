@@ -4,6 +4,6 @@ var copyright = function(company = '') {
    		now = new Date;
    		currentYear=now.getYear();
    		if(currentYear < 1900) { currentYear = currentYear + 1900;};
-    	eles[i].innerHTML = `© ${company} ${currentYear}`
+    	eles[i].innerHTML = `&copy; ${company} ${currentYear}`
 	}
 }

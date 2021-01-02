@@ -30,13 +30,13 @@ Get CDC flu stats for last n years for a state in USA
 # usage
 
 ```
-    > python flu.py <STATE> <LAST_N_YEARS> <CDC_SEVERITY_LEVEL>
-    > python flu.py CA 3 7
+> python flu.py <STATE> <LAST_N_YEARS> <CDC_SEVERITY_LEVEL>
+> python flu.py CA 3 7
 
-    State : CA :: FLU Season: 2016-04-10 :: Week Number :: 15 :: CDC Severity level :: 7
-    State : CA :: FLU Season: 2017-03-19 :: Week Number :: 12 :: CDC Severity level :: 7
-    State : CA :: FLU Season: 2017-11-05 :: Week Number :: 45 :: CDC Severity level :: 7
-    State : CA :: FLU Season: 2019-04-14 :: Week Number :: 16 :: CDC Severity level :: 7
+State : CA :: FLU Season: 2016-04-10 :: Week Number :: 15 :: CDC Severity level :: 7
+State : CA :: FLU Season: 2017-03-19 :: Week Number :: 12 :: CDC Severity level :: 7
+State : CA :: FLU Season: 2017-11-05 :: Week Number :: 45 :: CDC Severity level :: 7
+State : CA :: FLU Season: 2019-04-14 :: Week Number :: 16 :: CDC Severity level :: 7
 ```
 
 # Copyright.js
@@ -47,6 +47,8 @@ Adds current year to website footer and saves a release cycle.
 
 
 ```
-<span  class='copyright' onload=copyright('Company Name Inc.')></span>
+<body onload="copyright('Company Inc.')">
+	<span  class='copyright' ></span>
+</body>
 ```
 
