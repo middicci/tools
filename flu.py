@@ -86,13 +86,12 @@ class FluStatus:
                             )
                     
 
-
-if len(sys.argv) < 4:
-    state, last_n_years = sys.argv[1].upper(), int(sys.argv[2])
-    re = FluStatus(state, last_n_years)
-elif len(sys.argv) < 5:
+if len(sys.argv) == 4:
     state, last_n_years, severity_level = sys.argv[1].upper(), int(sys.argv[2]), int(sys.argv[3])
     re = FluStatus(state, last_n_years, severity_level)
+elif len(sys.argv) == 3:
+    state, last_n_years = sys.argv[1].upper(), int(sys.argv[2])
+    re = FluStatus(state, last_n_years)
 else:
     print(
     """
