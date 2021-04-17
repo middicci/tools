@@ -56,3 +56,24 @@ Adds current year to website footer and saves a release cycle.
 
 Chrome extension to remove annoying registration page on Bloomberg.com COVID19 vaccine tracker page.
 [link to Chrome Web Strore!](https://chrome.google.com/webstore/detail/bloomberry/knkabgjiklakjpmddcbpejihgafnkhna?hl=en&authuser=0)
+
+# Got Vax? COVID19 vaccine availability, Safeway pharmacies
+
+```
+Usage:
+
+    > python vax.py <City, StateCode>
+    > python vax.py 'Tucson, AZ'
+
+    Yay!
+
+    Available @: Albertsons 0960 - 7300 N. Lacholla Blvd, Tucson, AZ, 85741
+
+    Book @: https://kordinator.mhealthcoach.net/vcl/1600124140771
+
+    OR
+
+    Search Appointment @: https://www.mhealthappointments.com/covidappt
+
+    #######################################################################:
+ ```

@@ -43,7 +43,7 @@ class VaxStatus:
                 print(' Book @: {}\n'.format(record.get('coach_url')))
                 print('{0:<3}OR\n'.format(''))
                 print(' Search Appointment @: https://www.mhealthappointments.com/covidappt\n\n')
-                print('#######################################################################: \n\n')
+                print('--------------------------------------------------------------------: \n\n')
 
 
 if len(sys.argv) == 2:
@@ -67,7 +67,7 @@ else:
 
     Search Appointment @: https://www.mhealthappointments.com/covidappt
 
-    #######################################################################:
+    --------------------------------------------------------------------
 
     """)
 
