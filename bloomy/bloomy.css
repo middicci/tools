@@ -1,7 +1,0 @@
-.reg-ui-client[data-status=show] {
-	display: none !important;
-}
-
-body[data-reg-ui-client-status=show] {
-	overflow: auto !important;
-}
