@@ -52,11 +52,6 @@ Adds current year to website footer and saves a release cycle.
 </body>
 ```
 
-# Bloomy a.k.a. BloomBerry
-
-Chrome extension to remove annoying registration page on Bloomberg.com COVID19 vaccine tracker page.
-[link to Chrome Web Strore!](https://chrome.google.com/webstore/detail/bloomberry/knkabgjiklakjpmddcbpejihgafnkhna?hl=en&authuser=0)
-
 # Got Vax? COVID19 vaccine availability, Albertsons -> Safeway Pharmacies
 
 ```
